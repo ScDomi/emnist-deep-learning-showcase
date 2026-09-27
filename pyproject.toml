@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "emnist-deep-learning-showcase"
+version = "0.1.0"
+description = "Transfer-learning and modular CNN experiments on the official EMNIST dataset."
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+  "torch",
+  "torchvision",
+  "numpy",
+  "matplotlib",
+  "pillow",
+  "scikit-learn",
+  "optuna",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[project.scripts]
+emnist-train = "emnist_dl.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 120

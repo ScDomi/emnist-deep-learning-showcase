@@ -1,0 +1,4 @@
+EficientNetB0: Accuracy: 0.8115, R^2: 0.5015
+ResNet50: Accuracy: 0.8359, R^2: 0.5578
+ResNet18: Accuracy: 0.8341 R^2 Score: 0.5550
+Modular: Accuracy: 0.8289 R^2 Score: 0.5497
