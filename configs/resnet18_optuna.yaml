@@ -1,0 +1,9 @@
+model: resnet18
+modular: false
+epochs: 30
+batch_size: 32
+learning_rate: 0.0002355648237093861
+dropout: 0.10006494702016773
+lr_decay: 0.9068206566151565
+weight_decay: 0.0001
+allowed_chars: "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
