@@ -121,3 +121,7 @@ pytest -q
 ## License
 
 MIT
+
+---
+
+<sub>scryx · rules are defaults, not truth</sub>
